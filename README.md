@@ -2,15 +2,13 @@
 
 Esta é uma API simples desenvolvida em **Node.js** usando o framework **Express** para calcular o produtório de uma sequência numérica de acordo com a equação:
 
-\[
-x_i = i + \frac{1}{i}, \quad \text{com } i > 0
-\]
+`x_i = i + 1/i,  com i > 0`
 
 A API permite calcular o produtório entre dois limites, \( m \) (limite inferior) e \( n \) (limite superior), utilizando métodos **iterativo** ou **recursivo**.
 
 ## Desenvolvido por:
-[Ana Eduarda](https://github.com/f3ijo)
-[Isabella Couto](https://github.com/iscoutto)
+- [Ana Eduarda](https://github.com/f3ijo)
+- [Isabella Couto](https://github.com/iscoutto)
 
 ## Pré-requisitos
 
@@ -26,7 +24,7 @@ A API permite calcular o produtório entre dois limites, \( m \) (limite inferio
    
 2. Navegue até o diretório do projeto:
    ```bash
-   cd api-nodejs
+   cd api-nodejs/api
    ```
 
 3. Instale as dependências do projeto:
